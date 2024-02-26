@@ -6,7 +6,7 @@ const { Profile } = require('../models');
 const profileSeeds = require('./profileSeeds.json');
 const cleanDB = require('./cleanDB'); 
 
-// 
+// function to seed data from json
 db.once('open', async () => {
     try {
       await cleanDB('Profile', 'profiles');
