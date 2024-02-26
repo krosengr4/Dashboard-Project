@@ -21,6 +21,7 @@ type Profile {
   type Mutation {
     addProfile(name: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
+    removeProfile(profileId: ID!): Profile
   }
 `;
 
