@@ -6,7 +6,8 @@ export default function homePage() {
 
     return (
         <div>
-            <h1>This is the Signup.jsx in the /client/src/pages directory</h1>
+            <h1>The Sign Up Page</h1>
         </div>
     )
 }
+

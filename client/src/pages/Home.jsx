@@ -6,7 +6,7 @@ export default function homePage() {
 
     return (
         <div>
-            <h1>This is the Home.jsx in the /client/src/pages directory</h1>
+            <h1>The Home Page</h1>
         </div>
     )
 }
