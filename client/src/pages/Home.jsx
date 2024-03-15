@@ -1,6 +1,6 @@
 //! This file contains the homepage of the dashboard. 
 
-import '../app.css';
+// import '../app.css';
 
 export default function homePage() {
 

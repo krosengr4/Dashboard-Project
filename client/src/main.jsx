@@ -1,15 +1,17 @@
 //! This file is to create a browser router and connect it with Root div from index.html
 
-//? Import ReactDOM and router 
+//? Import React and router 
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import React from 'react'
+
 
 //? Import our webpages and app.jsx 
 import App from './app.jsx';
 import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
-import ErrorPage from './pages/Error';
+import Error from './pages/Error';
 // import Profile from './pages/Profile';
 
 //? Create router that go to each webpage
@@ -17,7 +19,7 @@ const router = createBrowserRouter([
     {
       path: "/",
       element: <App />,
-      errorElement: <ErrorPage />,
+      errorElement: <Error />,
       children: [
         {
           index: true,

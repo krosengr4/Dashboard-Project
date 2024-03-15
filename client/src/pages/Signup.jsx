@@ -1,6 +1,6 @@
 //! This file contains the signup page of the dashboard. 
 
-import '../app.css';
+// import '../stylesheets/';
 
 export default function homePage() {
 

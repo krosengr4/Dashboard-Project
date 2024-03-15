@@ -10,5 +10,16 @@ Homepage with all of the applications
 Creative and interesting style
 
 
+## List of applications to be used
+Daily/Weekly planner (One div for daily one for weekly. Hide and show based of the div id.)
+Note taking application
+Calculator(?)
+
+
+
+
 ## Additional additions
 Create and use a logo
+
+## Future developements
+Notifications for the planner
