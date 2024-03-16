@@ -1,4 +1,4 @@
-//! This file contains the login page of the dashboard. 
+//! This file contains the homepage of the dashboard. 
 
 // import '../app.css';
 
@@ -6,7 +6,7 @@ export default function homePage() {
 
     return (
         <div>
-            <h1>Login to your account!</h1>
+            <h1>The Planner Application</h1>
         </div>
     )
 }
