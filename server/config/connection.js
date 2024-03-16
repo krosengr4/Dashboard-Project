@@ -3,6 +3,6 @@
 //Import mongoose db, connect to db, then export
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/student-dashboard');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/daily-dashboard');
 
 module.exports = mongoose.connection;

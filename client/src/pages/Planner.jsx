@@ -1,8 +1,8 @@
-//! This file contains the homepage of the dashboard. 
+//! This file contains the the planner application of the dashboard. 
 
 // import '../app.css';
 
-export default function homePage() {
+export default function plannerApp() {
 
     return (
         <div>

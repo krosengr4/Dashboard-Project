@@ -1,5 +1,5 @@
 {
-    "name": "student-dashboard",
+    "name": "daily-dashboard",
     "version": "1.0.0",
     "description": "",
     "main": "server/server.js",
