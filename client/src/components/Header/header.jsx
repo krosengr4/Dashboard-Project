@@ -10,15 +10,16 @@ const Header = () => {
   return (
     <nav className='header'>
       <Link to='/' className='homeLink'>
-        <h2>Home Page</h2>
+        <h1>The Daily Dashboard!</h1>
       </Link>
 
 
       <div className='navbar-links'>
         <Link to="/Login">Login</Link>
         <Link to="/Signup">Signup</Link>
-
       </div>
+
+
     </nav>
   );
 };
