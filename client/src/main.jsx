@@ -12,7 +12,7 @@ import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Error from './pages/Error';
-import Planner from './pages/Planner.jsx'
+// import Planner from './pages/Planner.jsx';
 // import Profile from './pages/Profile';
 
 //? Create router that go to each webpage
@@ -32,10 +32,6 @@ const router = createBrowserRouter([
           path: '/signup',
           element: <Signup />
         },
-        {
-          path: '/planner',
-          element: <Planner />
-        }
       ]
     },
   ]);
