@@ -1,0 +1,22 @@
+/*! This file contains the css for the Daily Dashboard application  */
+
+.lower-project {
+    width: 50%;
+    margin: 1rem auto 0;
+}
+
+.project-img {
+  width: 60%;
+  border-style: ridge;
+  border-width: 24px;
+  border-color: rgb(0,0, 66);
+  box-shadow: 40px 25px 12px rgb(42, 42, 42);
+}
+
+.small-project-label {
+    font-size: 35px;
+    position: relative;
+    top: 35px;
+    color: wheat;
+  
+  }
