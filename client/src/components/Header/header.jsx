@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+
 // import Auth from '../../utils/auth';
 
 const Header = () => {
@@ -12,6 +13,7 @@ const Header = () => {
       <Link to='/' className='homeLink'>
         <h1>The Daily Dashboard!</h1>
       </Link>
+      <p className='description-tag'>A handful of app's that offer help for your daily routine!</p>
 
 
       <div className='navbar-links'>

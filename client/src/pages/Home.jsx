@@ -15,8 +15,7 @@ export default function homePage() {
             {/* <Link to='https://krosengr4.github.io/WorkDayScheduler/'>Daily Planner</Link> */}
 
             <div className="main-div">
-        <h1 className="page-title">The Daily Dashboard! </h1>
-        <p className='description-tag'>A handful of app's that offer help for your daily routine!</p>
+        {/* <h1 className="page-title">The Daily Dashboard! </h1> */}
         <hr></hr>
 
     <section className='projects-container'>
@@ -35,6 +34,12 @@ export default function homePage() {
 
         <a className='lower-project' href='https://krosengr4.github.io/Password-Generator/'>
             <h3 className='small-project-label'>Random Password Generator</h3>
+            <img className='project-img' src='/Password-Generator.png' alt='Clickable image of my project'></img>
+            <div className='overlay5'></div>
+        </a>
+
+        <a className='lower-project' href='https://krosengr4.github.io/Password-Generator/'>
+            <h3 className='small-project-label'>Note Taker</h3>
             <img className='project-img' src='/Password-Generator.png' alt='Clickable image of my project'></img>
             <div className='overlay5'></div>
         </a>
