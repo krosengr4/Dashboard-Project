@@ -6,7 +6,7 @@ export default function homePage() {
 
     return (
         <div>
-            <h1>The Sign Up Page</h1>
+            <h1>Sign up for an account!</h1>
         </div>
     )
 }
