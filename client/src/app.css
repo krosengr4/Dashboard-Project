@@ -1,7 +1,18 @@
 /*! This file contains the css for the Daily Dashboard application  */
 
-/** Header section */
+/** Background */
+.background-container {
+    background-image: url('/school-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
 
+/** Header section */
 h1 {
     text-align: center;
     font-size: 46px;
@@ -26,7 +37,6 @@ h1 {
 }
 
 /** Application section */
-
 .projects-container {
     display: flex;
     flex-wrap: wrap;
