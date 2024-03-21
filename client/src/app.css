@@ -15,25 +15,30 @@
 /** Header section */
 h1 {
     text-align: center;
-    font-size: 46px;
+    font: monospace;
+    font-size: 52px;
+    color: rgb(2, 54, 2);
 }
 
 .description-tag {
     text-align: center;
     position: relative;
-    bottom: 16px;
-    font-size: 18px;
+    bottom: 20px;
+    font-size: 24px;
 }
 
 .navbar-links {
-    font-size: 18px;
+    font-size: 30px;
     display: flex;
     justify-content: space-around;
-    margin: 20px;
     /* position: relative; */
     /* bottom: 30px; */
     /* height: 40px; */
     /* list-style: none; */
+}
+
+.login-signup {
+    color: rgb(2, 54, 2);
 }
 
 /** Application section */
@@ -61,10 +66,10 @@ h1 {
   box-shadow: 40px 25px 12px rgb(42, 42, 42);
 }
 
-.small-project-label {
+.project-label {
     font-size: 35px;
     position: relative;
     top: 35px;
-    color: rgb(0, 0, 0);
+    color: rgb(0,0, 66);
     text-align: center;
 }
