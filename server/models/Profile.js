@@ -12,6 +12,12 @@ const profileSchema = new Schema({
       required: true,
       unique: true,
     },
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+      match: [/.+@.+\..+/, 'Must match an email address!'],
+    },
     description: {
       type: String,
       required: true,

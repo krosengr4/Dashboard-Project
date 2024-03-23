@@ -9,7 +9,7 @@ import Auth from '../utils/auth';
 import '../app.css';
 
 const Login = (props) => {
-    const [formState, setFormState] = useState({ name: '', password: '' });
+    const [formState, setFormState] = useState({ email: '', password: '' });
     const [login, { error, data }] = useMutation(LOGIN_USER);
 
   // update state based on form input changes
@@ -38,7 +38,7 @@ const Login = (props) => {
 
     // clear form values
     setFormState({
-        name: '',
+        email: '',
         password: '',
     });
   };
@@ -47,6 +47,7 @@ const Login = (props) => {
     return (
         <main className='login-main'>
             <div>
+                <div>
                 <h2 className='login-title'>Login to your account!</h2>
                 <div className='card-body'>
                     {data ? (
@@ -58,10 +59,10 @@ const Login = (props) => {
                         <form onSubmit={handleFormSubmit}>
                             <input
                                 className='login-form'
-                                placeholder='Enter your name...'
-                                name='name'
-                                type='name'
-                                value={formState.name}
+                                placeholder='Enter your email...'
+                                name='email'
+                                type='email'
+                                value={formState.email}
                                 onChange={handleChange}
                             />
                             <input
@@ -82,13 +83,20 @@ const Login = (props) => {
                         </div>
                     )}
                 </div>
+                </div>
             </div>
         </main>
     );
     };
-
+    
 export default Login;
 
-    // <div>
-    //     <h1>Login to your account!</h1>
-    // </div>
+
+// export default function Login() {
+
+//     return (
+//         <div>
+//             <h1>Login to account!</h1>
+//         </div>
+//     )
+// }
