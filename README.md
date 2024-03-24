@@ -18,8 +18,11 @@ Calculator(?)
 
 
 
-## Additional additions
+## Future Developement
 Create and use a logo
+Profile page for user logged in.
+Profile page for all user that shows their descriptions.
+Aside section with everyone's user name. (Leads to profile page)
 
 ## Future developements
 Notifications for the planner
