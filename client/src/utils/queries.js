@@ -1,3 +1,5 @@
+//! This file is to query user profile information
+
 import { gql } from '@apollo/client';
 
 export const QUERY_SINGLE_PROFILE = gql `

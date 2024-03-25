@@ -1,6 +1,12 @@
 //! This file contains the homepage of the dashboard. 
 
 import { Link } from "react-router-dom";
+import { useQuery } from "@apollo/client";
+
+//! import ProfileList from '../components/ProfileList';
+
+import { QUERY_SINGLE_PROFILE } from "../utils/queries";
+
 // import plannerApp from "./Planner";
 
 import '../app.css';
