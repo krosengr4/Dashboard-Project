@@ -22,7 +22,6 @@ export default function homePage() {
 
             <div className="main-div">
         {/* <h1 className="page-title">The Daily Dashboard! </h1> */}
-        <hr className="hr"></hr>
 
     <section className='projects-container'>
 

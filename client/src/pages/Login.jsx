@@ -56,7 +56,7 @@ const Login = (props) => {
                             <Link to='/'>back to the homepage.</Link>
                         </p>
                     ) : (
-                        <form onSubmit={handleFormSubmit}>
+                        <form className= 'main-login-form' onSubmit={handleFormSubmit}>
                             <input
                                 className='login-form'
                                 placeholder='Enter your email...'
@@ -67,16 +67,15 @@ const Login = (props) => {
                             />
                             <input
                                 className='login-form'
-                                placeholder='********'
+                                placeholder='Enter your password...'
                                 name='password'
                                 type='password'
                                 value={formState.password}
                                 onChange={handleChange}
                             />
-                            <button className='login-submit' type='submit'>Login</button>    
+                            <button className='login-submit' type='submit'>Login</button>  
                         </form>
                     )}
-
                     {error && (
                         <div className='error-msg'>
                             {error.message}

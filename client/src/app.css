@@ -15,9 +15,9 @@
 /** Header section */
 h1 {
     text-align: center;
-    font: monospace;
+    text-decoration: none;
     font-size: 52px;
-    color: rgb(2, 54, 2);
+    color: rgb(199, 255, 199);
 }
 
 .description-tag {
@@ -38,7 +38,7 @@ h1 {
 }
 
 .login-signup {
-    color: rgb(2, 54, 2);
+    color: rgb(199, 255, 199);
 }
 
 /** Application section */
@@ -74,4 +74,40 @@ h1 {
     text-align: center;
 }
 
-/**  */
+/** The login page */
+.login-title {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(39, 52, 88);
+}
+
+.main-login-form {
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 12px;
+    /* align-content: center; */
+    /* bottom: 46px; */
+}
+
+.login-form {
+    width: 24%;
+    height: 30px;
+    font-size: 14px;
+}
+
+.login-submit {
+    margin: 12px;
+    height: 30px;
+    width: 8%;
+    font-size: 18px;
+    /* align-items: center; */
+    position: relative;
+    /* left: 165px; */
+}
