@@ -41,6 +41,17 @@ h1 {
     color: rgb(199, 255, 199);
 }
 
+/** Footer section  */
+.go-back-btn {
+    margin: 64px;
+    height: 30px;
+    width: 8%;
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+
 /** Application section */
 .projects-container {
     display: flex;
@@ -76,13 +87,17 @@ h1 {
 
 /** The login page */
 .login-title {
+    font-size: 30px;
     text-align: center;
     text-decoration: underline;
     color: rgb(39, 52, 88);
 }
 
 .main-login-form {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .login-form {
@@ -97,9 +112,9 @@ h1 {
 }
 
 .login-form {
-    width: 24%;
-    height: 30px;
-    font-size: 14px;
+    width: 34%;
+    height: 38px;
+    font-size: 20px;
 }
 
 .login-submit {
