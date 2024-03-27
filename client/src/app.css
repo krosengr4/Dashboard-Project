@@ -41,6 +41,12 @@ h1 {
     color: rgb(199, 255, 199);
 }
 
+.logout-btn {
+    height: 30px;
+    font-size: 18px;
+    position: relative;
+}
+
 /** Footer section  */
 .go-back-btn {
     margin: 64px;

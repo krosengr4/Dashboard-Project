@@ -43,19 +43,11 @@ export default function homePage() {
             <div className='overlay5'></div>
         </a>
 
-        <a className='lower-project' href='https://krosengr4.github.io/Password-Generator/'>
+        <a className='lower-project' href=''>
             <h3 className='project-label'>Note Taker</h3>
-            <img className='project-img' src='/Password-Generator.png' alt='Clickable image of my project'></img>
+            <img className='project-img' src='/coming-soon.png' alt='Clickable image of my project'></img>
             <div className='overlay5'></div>
         </a>
-
-        {/* Replace with note taker */}
-        {/* <a className='lower-project' href='https://krosengr4.github.io/Coding-Quiz/'>
-            <img className='project-img' src='/Code-Quiz.png' alt='Clickable image of my project'></img>
-            <div className='overlay3'>
-                <h3 className='small-project-label'>Coding Quiz</h3>
-            </div>
-        </a> */}
 
     </section>
 

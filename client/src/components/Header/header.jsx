@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 
 
-// import Auth from '../../utils/auth';
+import Auth from '../../utils/auth';
 
 const Header = () => {
-  // const logout = (event) => {
-  //   event.preventDefault();
-  //   Auth.logout();
-  // };
+  const logout = (event) => {
+    event.preventDefault();
+    Auth.logout();
+  };
   return (
     <nav className='header'>
       <Link to='/' className='homeLink'>
@@ -17,8 +17,16 @@ const Header = () => {
 
 
       <div className='navbar-links'>
-        <Link to="/Login" className='login-signup'>Login</Link>
-        <Link to="/Signup" className='login-signup'>Signup</Link>
+        {Auth.loggedIn() ? (
+                      <button className="logout-btn" onClick={logout}>
+                      Logout
+                    </button>
+        ) : (
+          <>         
+          <Link to="/Login" className='login-signup'>Login</Link>
+          <Link to="/Signup" className='login-signup'>Signup</Link>
+          </> 
+          )}
       </div>
       <hr></hr>
 
